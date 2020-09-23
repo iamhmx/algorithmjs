@@ -33,3 +33,4 @@ function quickSort(arr, l, r) {
 let arr = [1, 8, 3, 10, 6, 5, 11, 0]
 quickSort(arr, 0, arr.length - 1)
 console.log('res：', arr)
+// res： [0, 1, 3, 5, 6, 8, 10, 11]
