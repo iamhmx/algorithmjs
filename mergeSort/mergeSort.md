@@ -3,6 +3,26 @@
 2. 分别对子数组排序
 3. 将排好序的子数组合并成完整的有序数组
 
+### 时间复杂度
+<table>
+<thead>
+<tr>
+<th align="center">最好</th>
+<th align="center">平均</th>
+<th align="center">最坏</th>
+<th align="center">稳定性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">n&nbsp;log(n)</td>
+<td align="center">n&nbsp;log(n)</td>
+<td align="center">n&nbsp;log(n)</td>
+<td align="center">稳定</td>
+</tr>
+</tbody>
+</table>
+
 <img src="https://images2017.cnblogs.com/blog/849589/201710/849589-20171015230557043-37375010.gif">
 
 以数组：`arr = [7, 9, 2, 6, 14, 12]`为例，归并过程如下：

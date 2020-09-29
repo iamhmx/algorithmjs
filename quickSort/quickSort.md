@@ -4,6 +4,26 @@
 2. 将小于等于目标值的数放左边，将大于等于目标值的数放右边（可以直接赋值，也可以交换2个数）
 3. 对目标值左右两边的数重复第1、2步操作，进行递归
 
+### 时间复杂度
+<table>
+<thead>
+<tr>
+<th align="center">最好</th>
+<th align="center">最坏</th>
+<th align="center">平均</th>
+<th align="center">稳定性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">n&nbsp;log(n)</td>
+<td align="center">n<sup>2</sup></td>
+<td align="center">n&nbsp;log(n)</td>
+<td align="center">不稳定</td>
+</tr>
+</tbody>
+</table>
+
 <img src="https://images2017.cnblogs.com/blog/849589/201710/849589-20171015230936371-1413523412.gif">
 
 ### 实现

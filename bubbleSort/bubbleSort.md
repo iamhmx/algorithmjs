@@ -2,6 +2,26 @@
 1. 两两比较相邻的2个数，如果前者大于后者（从小到大排序），交换位置
 2. 每一轮循环结束，可将最大的数排到最后，循环直到只剩一个数，即数组有序
 
+### 时间复杂度
+<table>
+<thead>
+<tr>
+<th align="center">最好</th>
+<th align="center">最坏</th>
+<th align="center">平均</th>
+<th align="center">稳定性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">n</td>
+<td align="center">n<sup>2</sup></td>
+<td align="center">n<sup>2</sup></td>
+<td align="center">稳定</td>
+</tr>
+</tbody>
+</table>
+
 <img src="https://images2017.cnblogs.com/blog/849589/201710/849589-20171015223238449-2146169197.gif">
 
 ### 实现
